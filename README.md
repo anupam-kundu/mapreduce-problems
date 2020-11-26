@@ -9,3 +9,4 @@ map reduce problems
 6. DFS
 7. Topological sort
 8. DijkstraAlgo
+9. Inverted Index
