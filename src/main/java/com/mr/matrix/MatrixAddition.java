@@ -12,9 +12,9 @@ import java.io.IOException;
  * Matrix A (i*j)
  * Matrix B (i*j)
  * <p>
- * A * B
+ * A + B
  * <p>
- * Result Matrix after multiplication (i*j)
+ * Result Matrix after addition (i*j)
  * <p>
  * matrix A represented as
  * A i k val
