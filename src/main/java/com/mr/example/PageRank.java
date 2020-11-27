@@ -1,4 +1,4 @@
-package com.mr.sample;
+package com.mr.example;
 
 public class PageRank {
 }

@@ -1,4 +1,4 @@
-package com.mr.sample;
+package com.mr.example;
 
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
