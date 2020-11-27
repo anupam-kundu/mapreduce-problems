@@ -40,7 +40,7 @@ import java.util.Map;
 public class MatrixMultiplication {
     private static final String TAB = "\t";
 
-    public class DemoMap extends Mapper<LongWritable, Text, Text, Text> {
+    private class MtxMultiMap extends Mapper<LongWritable, Text, Text, Text> {
         @Override
         public void map(LongWritable key, Text value, Context context)
                 throws IOException, InterruptedException {
@@ -69,7 +69,7 @@ public class MatrixMultiplication {
         }
     }
 
-    public class DemoReduce extends Reducer<Text, Text, Text, Text> {
+    private class MtxMultiReduce extends Reducer<Text, Text, Text, Text> {
         @Override
         public void reduce(Text key, Iterable<Text> values, Context context)
                 throws IOException, InterruptedException {
