@@ -10,6 +10,8 @@ import org.apache.hadoop.mapreduce.Reducer;
  */
 public class KMeansClustering {
 
+    // TBD
+
     private class kMeansMapper extends Mapper<LongWritable, Text, Text, Text> {
 
     }
