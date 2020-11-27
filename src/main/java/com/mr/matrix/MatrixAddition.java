@@ -36,7 +36,7 @@ import java.io.IOException;
  * 0 0 __
  */
 public class MatrixAddition {
-    private static final String TAB = "\t";
+    private static final String TAB = "\\t";
 
     private class MtxAddMap extends Mapper<LongWritable, Text, Text, Text> {
         @Override
